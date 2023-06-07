@@ -8,17 +8,20 @@ POST   http://localhost:5000/users
 Content-Type: application/json
 
 {
-    "name" : "Budibadu",
-    "email" : "budabudi777@gmail.com",
+    "name" : "MESSI",
+    "email" : "messiplayer777@gmail.com",
     "gender" : "Male"
 }
 
 ###
-PATCH    http://localhost:5000/users/1
+PATCH    http://localhost:5000/users/3
 Content-Type: application/json
 
 {
-    "name" : "BUDIDI",
-    "email" : "budidii777@gmail.com",
+    "name" : "Ronaldo",
+    "email" : "ronaldo777@gmail.com",
     "gender" : "Male"
 }
+
+###
+DELETE   http://localhost:5000/users/2
